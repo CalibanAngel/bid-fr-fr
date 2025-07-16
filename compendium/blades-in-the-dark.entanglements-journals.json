@@ -1,0 +1,57 @@
+{
+  "label": "Complications - Imbroglios",
+  "mapping": {
+    "description": "system.description",
+    "class": "system.class"
+  },
+  "entries": {
+    "Arrest": {
+      "name": "Arrestation",
+      "description": "<p>Un Inspecteur soumet un dossier à charge à un magistrat pour lancer des poursuites contre votre bande. Les Manteaux bleus viennent vous arrêter (un gang au moins égal en échelle à votre niveau d’avis de recherche). Soudoyez-les (autant de  que votre niveau d’avis de recherche+3), livrez-leur quelqu’un (remettez à zéro la jauge de raffut) ou essayez d’échapper à la capture.</p>"
+    },
+    "Cooperation": {
+      "name": "Coopération",
+      "description": "<p>Une faction avec laquelle vos relations sont à +3 sollicite une faveur. Acceptez, ou perdez 1 renom par rang de la faction amie, ou refusez et perdez -1 relations. Si vous n’avez des relations à +3 avec aucune faction, vous évitez les ennuis pour l’instant.</p>"
+    },
+    "Demonic Notice": {
+      "name": "Attention démoniaque",
+      "description": "<p>Un démon contacte la bande pour lui proposer un ténébreux marché. Acceptez la proposition, faites-vous oublier jusqu’à ce qu’il se lasse de vous chercher (vous perdez 3 points de renom) ou contrez-le autrement.</p>"
+    },
+    "Flipped": {
+      "name": "Retournement de veste",
+      "description": "<p>Un de vos rivaux s’arrange pour que l’un de vos contacts ou mécènes ou un groupe de vos clients s’éloignent de vous à cause du raffut que vous provoquez. Il est désormais loyal envers une autre faction.</p>"
+    },
+    "Gang Trouble": {
+      "name": "Problèmes de comparses",
+      "description": "<p>Certains de vos comparses (un gang ou un expert) causent des problèmes à cause de leurs défauts. Perdez la face (et autant de renom que le rang+1 de la bande), faites un exemple en ciblant l’un des comparses, ou bien attendez les représailles de la partie lésée.</p>"
+    },
+    "Interrogation": {
+      "name": "Interrogatoire",
+      "description": "<p>Les Manteaux bleus arrêtent un des PJ pour l’interroger au sujet des crimes commis par la bande. Comment ont-ils réussi à vous capturer? Payez 3  pour les soudoyer, ou bien encaissez le tabassage (blessure de niveau 2) et crachez le morceau (+3 raffut) (Vous pouvez résister à chacune de ces conséquences séparément).</p>"
+    },
+    "Questioning": {
+      "name": "Interpellation",
+      "description": "<p>Les Manteaux bleus interpellent un des contacts ou un des PNJ de la bande pour l’interroger. Qui est, selon eux, le maillon faible ? Soudoyez-les en payant 2 , ou faites un jet de chance pour savoir s’il a beaucoup parlé (résultat de 1-3: +2 raffut; 4/5: +1 raffut).</p>"
+    },
+    "Reprisals": {
+      "name": "Représailles",
+      "description": "<p>Une faction ennemie s’en prend directement à la bande ou à ses intérêts (une relation proche, contact ou pourvoyeur). Présentez vos excuses à la faction ennemie et payezlui 1  et 1  par rang de cette faction, laissez faire, ou bien résistez et ripostez pour bien montrer qui est le patron.</p>"
+    },
+    "Rivals": {
+      "name": "Rivalité",
+      "description": "<p>Une faction neutre tente d’asseoir son autorité. Elle vous menace directement, ou s’en prend à l’un de vos contacts, relations proches ou pourvoyeurs de vice. Cédez (et perdez 1 renom OU 1 lingot par rang de la faction rivale), ou résistez et perdez 1 point de relations avec elle.</p>"
+    },
+    "Show of Force": {
+      "name": "Démonstration de force",
+      "description": "<p>Une faction avec laquelle vous avez des relations négatives s’en prend à vos domaines. Vous pouvez envisager de lui concéder un domaine, ou au contraire de lui déclarer la guerre (les relations passent à -3 avec cette faction) Si la bande n’a pas de domaine, elle perd un <strong>niveau d’assise</strong> à la place.</p>"
+    },
+    "The Usual Suspects": {
+      "name": "Les suspects habituels",
+      "description": "<p>Les Manteaux bleus arrêtent un individu qui évolue en périphérie de votre bande. Un des joueurs doit proposer une relation proche ou un pourvoyeur de vice comme étant l’individu le plus susceptible d’être coffré. Faites-le libérer en payant 1 lingot aux Manteaux bleus, ou tentez un jet de chance afin de déterminer si le PNJ résiste à l’interrogatoire (1-3 : +2 raffut; 4/5 : blessure de niveau 2).</p>"
+    },
+    "Unquiet Dead": {
+      "name": "Morts sans repos",
+      "description": "<p>Un esprit errant vous hante – peut-être s’agit-il d’une ancienne victime ? Louez les services d’un Haruspice ou d’un Loup du rail pour le détruire ou le bannir, ou occupez-vous-en vous-même.</p>"
+    }
+  }
+}

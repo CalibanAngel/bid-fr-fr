@@ -1,0 +1,36 @@
+{
+  "label": "Antécédents",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Academic": {
+      "name": "Académique",
+      "description": "Un érudit, un professeur ou un étudiant à l’Académie de Doskvol, un philosophe ou un journaliste, etc."
+    },
+    "Labor": {
+      "name": "Labeur",
+      "description": "Un domestique, un ouvrier, un cocher, un docker, un marin, un poseur de rails, etc. Un débardeur pour la Compagnie Crochet Nord."
+    },
+    "Law": {
+      "name": "Loi",
+      "description": "Un avocat ou un juriste, un Manteau Bleu ou un inspecteur (voire un Gardien Spirite), un maton dans la prison de Crochet-de-Fer, etc."
+    },
+    "Military": {
+      "name": "Militaire",
+      "description": "Un soldat impérial ou Skovlandien, un mercenaire, un agent de renseignement, un stratège, un sergent instructeur, etc."
+    },
+    "Noble": {
+      "name": "Noble",
+      "description": "Une dilettante, un courtisan, l’héritier d’une famille en déclin, etc."
+    },
+    "Trade": {
+      "name": "Commerce",
+      "description": "Un boutiquier, un marchand, un artisan de talent, un coursier, etc. Un agent de liaison auprès du Ministère de la Préservation."
+    },
+    "Underworld": {
+      "name": "Bas-fond",
+      "description": "Un enfant des rues, un gangster, un jeune voyou, ou tout autre paria ayant grandi dans le caniveau."
+    }
+  }
+}

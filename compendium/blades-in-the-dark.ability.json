@@ -1,0 +1,414 @@
+{
+	"label": "Capacités",
+	"mapping": {
+		"description": "system.description",
+		"class":"system.class"
+	},
+	"entries": {
+		"(Sp) Foresight": {
+			"name": "(Ag) Anticipation",
+			"description": "Deux fois par coup, vous pouvez aider un coéquipier sans payer le coût en stress. Décrivez comment vous vous y étiez préparé.",
+			"class": "Araignée"
+		},
+		"(Sp) Ghost  Contract": {
+			"name": "(Ag) Contrat Spirite",
+			"description": "Lorsque vous concluez un marché en vous serrant la main ou en rédigeant un contrat écrit, votre partenaire et vous — humain ou autre — portez désormais chacun la marque de ce serment. Si l’un de vous deux enfreint les termes du contrat, il subit une blessure de niveau 3, en étant “Maudit.”",
+			"class": "Araignée"
+		},
+		"(Sp) Jail Bird": {
+			"name": "(Ag) Gibier de potence",
+			"description": "Lorsque vous êtes incarcéré, votre niveau d’avis de recherche est comptabilisé comme étant inférieur d’un degré, votre Rang supérieur d’un degré et vous gagnez +1 relation avec la faction qui vous aidera durant votre incarcération, en plus de ce que vous obtiendrez sur votre jet d’incarcération.",
+			"class": "Araignée"
+		},
+		"(Sp) Connected": {
+			"name": "(Ag) Influent",
+			"description": "Pendant les temps morts, vous obtenez +1 niveau de résultat quand vous acquérez une ressource ou réduisez le raffut.",
+			"class": "Araignée"
+		},
+		"(Sp) Calculating": {
+			"name": "(Ag) Prévoyant",
+			"description": "Grâce à votre planification minutieuse, pendant les temps morts, vous pouvez octroyer, à vous-même ou à un membre de la bande, une activité de temps mort supplémentaire.",
+			"class": "Araignée"
+		},
+		"(Sp) Mastermind": {
+			"name": "(Sp) Tête pensante",
+			"description": "Vous pouvez dépenser votre armure spéciale pour protéger un coéquipier, ou pour vous dépasser quand vous recueillez des informations ou travaillez sur un projet à long terme.",
+			"class": "Araignée"
+		},
+		"(Sp) Weaving the Web": {
+			"name": "(Ag) Tisser sa toile",
+			"description": "Vous obtenez +1 dé pour côtoyer quand vous recueillez des informations au sujet d’une cible pour un coup. Vous obtenez +1 dé au jet d’engagement pour cette opération.",
+			"class": "Araignée"
+		},
+		"(Sp) Veteran": {
+			"name": "(Ag) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Araignée"
+		},
+		"(Sp) Functioning Vice": {
+			"name": "(Ag) Vice caché",
+			"description": "Lorsque vous vous adonnez à votre vice, vous pouvez ajuster le résultat de votre jet de 1 ou 2 (en positif ou négatif). Un allié qui se joint à vous peut en faire de même.",
+			"class": "Araignée"
+		},
+		"(Sl) A Little Something on the Side": {
+			"name": "(Al) A côtés",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Arlequin"
+		},
+		"(Sl) Trust in Me": {
+			"name": "(Al) Aie confiance",
+			"description": "Vous gagnez +1 dé contre toute cible avec laquelle vous développez une relation intime.",
+			"class": "Arlequin"
+		},
+		"(Sl) Cloak & Dagger": {
+			"name": "(Al) De cape et dépée",
+			"description": "Lorsque vous utilisez un déguisement ou une autre forme d’artifice, vous gagnez +1 dé sur vos jets visant à provoquer la confusion ou éviter la suspicion. Quand enfin vous tombez le masque, l’effet de surprise qui en résulte vous donne l’initiative dans cette situation.",
+			"class": "Arlequin"
+		},
+		"(Sl) Rook's Gambit": {
+			"name": "(Al) Gambit de la tour",
+			"description": "Vous gagnez 2 points de stress pour utiliser votre meilleure valeur d’action alors que vous accomplissez un autre type d’action. Expliquez comment vous adaptez cette compétence à cet autre domaine.",
+			"class": "Arlequin"
+		},
+		"(Sl) Mesmerism": {
+			"name": "(Al) Mesmérisme",
+			"description": "Quand vous influencez quelqu’un, vous pouvez lui ôter tout souvenir de ce qui vient de se passer jusqu’à votre prochaine interaction.",
+			"class": "Arlequin"
+		},
+		"(Sl) Subterfuge": {
+			"name": "(Al) Subterfuge",
+			"description": "Vous pouvez dépenser votre armure spéciale pour résister à une conséquence en rapport avec la suspicion ou la persuasion, ou pour vous dépasser afin de mettre en oeuvre un subterfuge.",
+			"class": "Arlequin"
+		},
+		"(Sl) Like Looking into a Mirror": {
+			"name": "(Al) Tel le reflet dans le miroir",
+			"description": "Vous savez toujours quand quelqu’un vous ment.",
+			"class": "Arlequin"
+		},
+		"(Sl) Veteran": {
+			"name": "(Al) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Arlequin"
+		},
+		"(Sl) Ghost Voice": {
+			"name": "(Al) Voix fantomatique",
+			"description": "Vous êtes initié aux mystères permettant de converser avec un fantôme ou un démon comme s’il s’agissait d’un être humain ordinaire, en dépit de leur éventuelle apparence terrifiante ou sauvage. Cela vous rend puissant lorsque vous communiquez avec les entités surnaturelles.",
+			"class": "Arlequin"
+		},
+		"(C) Not to be Trifled With": {
+			"name": "(E) A ne pas prendre à la légère",
+			"description": "Lorsque vous vous dépassez afin d’accomplir l’un des exploits suivants : accomplir un tour de force physique proche du surhumain ou affronter en combat rapproché un petit gang à jeu égal.",
+			"class": "Ecorcheur"
+		},
+		"(C) Mule": {
+			"name": "(E) Bourrique",
+			"description": "Vos limites maximales de charge sont augmentées. Légère : 5. Normale : 7. Lourde : 8.",
+			"class": "Ecorcheur"
+		},
+		"(C) Ghost Fighter": {
+			"name": "(E) Combattant des arcanes",
+			"description": "Vous pouvez imprégner d’énergie spirituelle vos mains, vos armes de mêlée ou vos outils. Vous bénéficiez d’un effet puissant lorsque vous affrontez le surnaturel.",
+			"class": "Ecorcheur"
+		},
+		"(C) Savage": {
+			"name": "(E) Féroce",
+			"description": "Vos déchaînements de violence vous rendent particulièrement effrayant. Quand vous commandez une cible effrayée, gagnez +1 dé.",
+			"class": "Ecorcheur"
+		},
+		"(C) Bodyguard": {
+			"name": "(E) Garde du corps",
+			"description": "Quand vous protégez un coéquipier, vous gagnez +1 dé à votre jet de résistance. Quand vous recueillez des informations afin d’anticiper de possibles menaces, vous obtenez +1 effet.",
+			"class": "Ecorcheur"
+		},
+		"(C) Battleborn": {
+			"name": "(E) Guerrier né",
+			"description": "Vous pouvez cocher votre armure spéciale pour réduire une blessure causée par une attaque en combat ou pour vous dépasser durant un combat.",
+			"class": "Ecorcheur"
+		},
+		"(C) Leader": {
+			"name": "(E) Meneur",
+			"description": "Quand vous Commandez une cohorte en combat, vos hommes continuent à se battre alors même qu’ils devraient se disperser (la cohorte n’est pas mise hors de combat lorsqu’elle subit une blessure de niveau 3). La cohorte bénéficie de +1 effet et 1 armure.",
+			"class": "Ecorcheur"
+		},
+		"(C) Veteran": {
+			"name": "(E) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Ecorcheur"
+		},
+		"(C) Vigorous": {
+			"name": "(E) Vigoureux",
+			"description": "Vous guérissez plus rapidement. Cochez de manière permanente un segment de votre compteur de guérison. Gagnez +1 dé aux jets de récupération.",
+			"class": "Ecorcheur"
+		},
+		"(G) Dissipate": {
+			"name": "(G) Disjonction",
+			"description": "Vous êtes capable de disjoindre un certain temps les molécules électroplasmique de votre forme spectrale pour traverser les objets solides. Vous subissez 1 épuisement lorsque vous vous disjoignez, plus 1 épuisement pour chacune des aptitudes suivantes: l’effet dure plus longtemps (une minute – une  heure – un jour) – vous devenez en outre invisible – tout ce qui traverse votre forme court un risque d’électrocution ou de gel.",
+			"class": "Ghost"
+		},
+		"(G) Ghost Form": {
+			"name": "(G) Forme spectrale",
+			"description": "Vous êtes désormais une concentration de vapeurs électroplasmiques qui ressemble à votre corps et aux vêtements que vous portiez de votre vivant. Vous pouvez interagir faiblement avec le monde matériel et inversement. Vous êtes vulnérable aux pouvoirs occultes et aux effets électroplasmiques. Vous vous déplacez en flottant et pouvez voler rapidement sans effort. Vous pouvez également passer à travers de petites ouvertures, sous forme de vapeur, mais lentement. Vous refroidissez la zone qui vous entoure et votre apparence est terrifiante pour les vivants. Vous êtes affecté par les amulettes à esprits et la capacité Contrainte de l’Haruspice (vous pouvez tenter un jet de résistance pour surmonter son effet). Chaque fois que vous devriez subir un stress, notez de l’épuisement à la place. Chaque fois que vous devriez subir un trauma, notez un niveau de ténèbres à la place.",
+			"class": "Ghost"
+		},
+		"(G) Manifest": {
+			"name": "(G) Manifestation",
+			"description": "Subissez 1 épuisement pour vous projeter le long des canaux électroplasmiques du champ spectral, pour rejoindre instantanément tout lieu que vous connaissiez intimement de votre vivant, ou pour répondre à la d’un invocateur.",
+			"class": "Ghost"
+		},
+		"(G) Poltergeist": {
+			"name": "(G) Poltergeist",
+			"description": "Subissez 1 épuisement pour interagir fortement avec le monde physique pendant quelques instants (comme si vous possédiez un corps normal). En prenant de l’épuisement supplémentaire (de 2 à 6 points), vous étendez l’allonge et la magnitude de l’interaction, et êtes capable de pouvoir télékinétiques et de décharges électroplasmiques.",
+			"class": "Ghost"
+		},
+		"(G) Possess": {
+			"name": "(G) Possession",
+			"description": "Vous êtes capable de  avec le champ spectral pour prendre le contrôle d’un corps vivant. Quand votre contrôle est contesté, vous devez communier de nouveau (en risquant des dégâts électroplasmiques) ou quitter le corps. Votre contrôle est contesté quand : vous consumez l’énergie spirituelle de votre hôte – des pouvoirs occultes agissent contre vous – la volonté de votre hôte est poussée au désespoir. Vous pouvez facilement et indéfiniment posséder une coquille ou une carcasse qui a été rituellement préparée pour vous accueillir (changez alors votre livret de personnage pour incarner respectivement une Coquille ou un Vampire)",
+			"class": "Ghost"
+		},
+		"(G) Veteran": {
+			"name": "(G) Vétéran",
+			"description": "Choisissez une capacité spéciale issue d’une autre source.",
+			"class": "Ghost"
+		},
+		"(Lu) Daredevil": {
+			"name": "(G) Casse-cou",
+			"description": "Quand vous êtes dans une position désespérée, vous pouvez gagner +1 dé à votre jet d’action si vous subissez -1 dé au jet de résistance contre les conséquences de cette action.",
+			"class": "Guetteur"
+		},
+		"(Lu) Ambush": {
+			"name": "(G) Embuscade",
+			"description": "Quand vous passez à l’attaque depuis une cachette ou en déclenchant un piège, vous gagnez +1 dé à votre jet.",
+			"class": "Guetteur"
+		},
+		"(Lu) Expertise": {
+			"name": "(G) Expertise",
+			"description": "Choisissez l’une de vos valeurs d’action. Quand vous menez une action de groupe en usant de cette action, vous ne subissez au maximum qu’un point de stress, peu importe le nombre de jets ratés.",
+			"class": "Guetteur"
+		},
+		"(Lu) Infiltrator": {
+			"name": "(G) Infiltré",
+			"description": "Vous n’êtes pas affecté par la qualité ou le rang quand vous contournez des mesures de sécurité.",
+			"class": "Guetteur"
+		},
+		"(Lu) The Devil's Footsteps": {
+			"name": "(G) Le diable au corps",
+			"description": "Vous pouvez vous dépasser afin d’accomplir l’un des exploits suivants : accomplir un exploit athlétique proche du surhumain ou manoeuvrer pour embrouiller vos ennemis, de manière à ce qu’ils s’affrontent mutuellement par erreur.",
+			"class": "Guetteur"
+		},
+		"(Lu) Shadow": {
+			"name": "(G) Ombre",
+			"description": "Vous pouvez dépenser votre armure spéciale pour résister à une conséquence en rapport avec la détection ou les mesures de sécurité, ou vous dépasser pour réaliser un exploit d’athlétisme ou de discrétion.",
+			"class": "Guetteur"
+		},
+		"(Lu) Reflexes": {
+			"name": "(G) Réflexes",
+			"description": "Vous agissez toujours en premier.",
+			"class": "Guetteur"
+		},
+		"(Lu) Veteran": {
+			"name": "(G) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Guetteur"
+		},
+		"(Lu) Ghost Veil": {
+			"name": "(G) Voile spirit",
+			"description": "Vous pouvez traverser partiellement le voile qui nous sépare du champ ectoplasmique, pour l’espace de quelques instants paraître sombre et éthéré. Vous subissez 2 stress au moment où vous traversez le voile, plus 1 stress pour chacun des bénéfices ci-après : cela dure quelques minutes au lieu de quelques instants — vous êtes invisible — vous êtes capable de flotter dans l’air tel un fantôme.",
+			"class": "Guetteur"
+		},
+		"(W) Warded": {
+			"name": "(H) Conjurer",
+			"description": "Vous pouvez dépenser votre armure spéciale pour résister à une conséquence en rapport avec le surnaturel, ou pour vous dépasser quand vous affrontez ou recourez à une force ésotérique.",
+			"class": "Haruspice"
+		},
+		"(W) Compel": {
+			"name": "(H) Contraite",
+			"description": "Vous êtes capable de Communier avec le champ ectoplasmique afin de contraindre un fantôme se trouvant aux alentours à se manifester et obéir à vos ordres. Vous n’êtes pas terrifié par les fantômes que vous invoquez ou tentez de contraindre (mais vos alliés peuvent l’être).",
+			"class": "Haruspice"
+		},
+		"(W) Ghost Mind": {
+			"name": "(H) Médium",
+			"description": "Vous êtes toujours conscient des entités surnaturelles qui vous entourent. Vous obtenez +1 dé quand vous recueillez des informations sur le surnaturel.",
+			"class": "Haruspice"
+		},
+		"(W) Strange Methods": {
+			"name": "(H) Méthodes étranges",
+			"description": "Quand vous inventez ou fabriquez une création avec la caractéristique ésotérique, vous obtenez +1 niveau de résultat à votre jet (un 1-3 devient un 4/5, etc.). Vous débutez avec un modèle de création ésotérique déjà connu.",
+			"class": "Haruspice"
+		},
+		"(W) Occultist": {
+			"name": "(H) Occultiste",
+			"description": "Vous connaissez les secrets permettant de Côtoyer les puissances primordiales, les dieux oubliés ou les démons. Une fois que vous avez côtoyé l’une de ces entités, vous gagnez +1 dé pour Commander aux cultistes qui les vénèrent.",
+			"class": "Haruspice"
+		},
+		"(W) Ritual": {
+			"name": "(H) Rituel",
+			"description": "Vous connaissez les secrets ésotériques permettant d’accomplir un rituel de sorcellerie. Vous pouvez Étudier un rituel occulte (ou en créer un nouveau) afin d’invoquer un effet ou un être surnaturel. Vous débutez avec un rituel déjà connu.",
+			"class": "Haruspice"
+		},
+		"(W) Tempest": {
+			"name": "(H) Tempête",
+			"description": "Vous pouvez vous dépasser pour accomplir l’une des choses suivantes : lancer un éclair que vous utilisez comme une arme — invoquer une tempête à proximité immédiate (pluie torrentielle, vents hurlants, brouillard épais, givre glacial et neige, etc.).",
+			"class": "Haruspice"
+		},
+		"(W) Veteran": {
+			"name": "(H) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Haruspice"
+		},
+		"(W) Iron Will": {
+			"name": "(H) Volonté de fer",
+			"description": "Vous êtes insensible à la terreur que provoque la vue de certaines entités surnaturelles. Quand vous faites un jet de résistance avec Détermination, vous obtenez un dé supplémentaire.",
+			"class": "Haruspice"
+		},
+		"(Hu) Automaton": {
+			"name": "(Hu) Automate",
+			"description": "Vous êtes un esprit qui anime un corps d’étincelle. Par défaut, vous possédez une force et des sens comparables à ceux d’un humain. Votre coquille possède une armure naturelle (qui ne compte pas dans votre charge). Les sentiments, centres d’intérêt et relations que vous aviez de votre vivant ne sont plus que des souvenirs confus. Vous n’existez désormais que pour remplir vos devoirs. Choisissezen trois : garder – détruire – découvrir – acquérir – travailler à... ce que mon maître m’ordonne. Choisissez la taille de votre enveloppe, son aspect et sa fonction initiale (voir la liste ci-contre). Si vous êtes gravement endommagé ou détruit, vous pouvez être réparé, sauf si votre réceptacle spirituel est brisé, auquel cas vous êtes libéré de votre servitude et redevenez un Fantôme. En lieu de stress, vous subissez de l’épuisement. En lieu de trauma, vous subissez de l’usure.",
+			"class": "Hull"
+		},
+		"(Hu) Compartments": {
+			"name": "(Hu) Compartiments",
+			"description": "Vos objets sont intégrés à votre armature et peuvent disparaître sous un panneau amovible. Votre armature peut désormais transporter +2 .",
+			"class": "Hull"
+		},
+		"(Hu) Electroplasmic Projectors": {
+			"name": "(Hu) Projecteurs électroplasmatiques",
+			"description": "Vous pouvez relâcher une décharge électroplasmique, soit de zone autour de vous, soit en faisceau concentré; ou créer une barrière d’éclairs pour repousser ou piéger un esprit. Subissez 1 épuisement pour chaque degré de magnitude.",
+			"class": "Hull"
+		},
+		"(Hu) Interface": {
+			"name": "(Hu) Interface",
+			"description": "Vous pouvez  avec le réseau électroplasmique local pour le contrôler ou prendre le contrôle d’un engin qui y est connecté (y compris une autre coquille).",
+			"class": "Hull"
+		},
+		"(Hu) Overcharge": {
+			"name": "(Hu) Surcharge",
+			"description": "Vous pouvez subir 1 épuisement pour effectuer un exploit extrême de force ou de vitesse (courir plus vite qu’un cheval au galop, déchirer du métal à mains nues, etc.). Cela sera pris en compte pour votre effet.",
+			"class": "Hull"
+		},
+		"(Hu) Secondary Hull": {
+			"name": "(Hu) Coquille secondaire",
+			"description": "Choisissez une armature supplémentaire et sa fonction initiale. Vous pouvez transférer à volonté votre conscience entre l’une ou l’autre de vos coquilles.",
+			"class": "Hull"
+		},
+		"(H) Ghost Hunter": {
+			"name": "(L) Chasseur de fantômes",
+			"description": "Votre animal de compagnie est imprégné d’énergie spirite. Cela le rend puissant lorsqu’il traque ou combat des entités surnaturelles, en plus de lui conférer une capacité ésotérique au choix : forme fantomatique, lien mental ou rapide comme l’éclair. Vous pouvez choisir cette capacité plusieurs fois pour conférer un pouvoir ésotérique supplémentaire à votre animal.",
+			"class": "Limier"
+		},
+		"(H) Focused": {
+			"name": "(L) Concentration",
+			"description": "Vous pouvez dépenser votre armure spéciale pour résister à une conséquence en lien avec la surprise ou une blessure mentale (la peur, la confusion, la perte de la trace de votre cible) ou pour vous dépasser au combat à distance ou au pistage.",
+			"class": "Limier"
+		},
+		"(H) Scout": {
+			"name": "(L) Ecalireur",
+			"description": "Quand vous recueillez des informations pour découvrir la localisation d’une cible, vous obtenez +1 effet. Quand vous vous dissimulez dans un affût préparé à l’avance ou que vous utilisez un camouflage, vous obtenez +1 dé aux jets pour éviter d’être repéré.",
+			"class": "Limier"
+		},
+		"(H) Survivor": {
+			"name": "(L) Survivant",
+			"description": "Que ce soit via une expérience durement acquise ou par le biais d’un rituel occulte, vous êtes immunisé contre les miasmes empoisonnés des terres mortes, ce qui vous permet de survivre en vous nourrissant de l’étrange faune et flore qu’on peut y trouver. Vous gagnez +1 case de stress.",
+			"class": "Limier"
+		},
+		"(H) Sharpshooter": {
+			"name": "(L) Tireur d'élite",
+			"description": "Vous pouvez vous dépasser pour accomplir l’une des choses suivantes : effectuer un tir à une distance extrême qui va au-delà de la portée normale de l’arme ou effectuer un tir de suppression pour neutraliser l’ennemi.",
+			"class": "Limier"
+		},
+		"(H) Vengeful": {
+			"name": "(L) Vengeur",
+			"description": "Vous bénéficiez d’une condition supplémentaire pour gagner de l’expérience : « Tu cherches à te venger de quelqu’un qui t’a causé du tort, à toi ou à une personne qui t’est chère ». Si la bande vous a aidé à accomplir votre vengeance, elle gagne aussi de l’expérience.",
+			"class": "Limier"
+		},
+		"(H) Veteran": {
+			"name": "(L) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Limier"
+		},
+		"(H) Tough as Nails": {
+			"name": "(L) Volonté de fer",
+			"description": "Vous êtes insensible à la terreur que provoque la vue de certaines entités surnaturelles. Quand vous faites un jet de résistance avec Détermination, vous obtenez un dé supplémentaire.",
+			"class": "Limier"
+		},
+		"(Le) Alchemist": {
+			"name": "(S) Alchimiste",
+			"description": "Quand vous inventez ou fabriquez une création avec la caractéristique alchimique, vous obtenez +1 niveau de résultat à votre jet (un 1-3 devient un 4/5, etc.). Vous débutez avec une formule déjà connue.",
+			"class": "Sangsue"
+		},
+		"(Le) Analyst": {
+			"name": "(S) Analyste",
+			"description": "Pendant un temps mort, vous cochez deux segments dans n’importe quel compteur de projet à long terme qui implique une investigation, l’apprentissage d’une nouvelle formule ou la conception d’une nouvelle invention.",
+			"class": "Sangsue"
+		},
+		"(Le) Artificer": {
+			"name": "(S) Artificier",
+			"description": "Quand vous inventez ou fabriquez une création avec la caractéristique à étincelle, vous obtenez +1 niveau de résultat à votre jet (un 1-3 devient un 4/5, etc.). Vous débutez avec une invention déjà connue.",
+			"class": "Sangsue"
+		},
+		"(Le) Fortitude": {
+			"name": "(S) Force d'âme",
+			"description": "Vous pouvez dépenser votre armure spéciale pour résister à une conséquence en rapport avec la fatigue, la faiblesse ou les effets chimiques, ou pour vous dépasser dans un domaine technique ou quand vous manipulez des produits alchimiques.",
+			"class": "Sangsue"
+		},
+		"(Le) Physicker": {
+			"name": "(S) Médecin",
+			"description": "Vous êtes capable de Bricoler les os fracturés, de transfuser du sang ou d’autres fluides corporels, de recoudre les plaies et de stabiliser les mourants. Vous pouvez Étudier une maladie ou un cadavre. Tous les membres de votre bande (vous inclus) gagnez +1 dé sur vos jets de guérison.",
+			"class": "Sangsue"
+		},
+		"(Le) Saboteur": {
+			"name": "(S) Saboteur",
+			"description": "Quand vous Démolissez, votre ouvrage est beaucoup plus silencieux qu’il ne devrait l’être et vos dégâts sont admirablement dissimulés en cas d’inspection de routine.",
+			"class": "Sangsue"
+		},
+		"(Le) Ghost Ward": {
+			"name": "(S) Sceau naturel",
+			"description": "Quand vous Démolissez un lieu à l’aide de substances ésotériques, le ruinant pour toute autre utilisation, l’endroit devient, à votre guise, un lieu consacré au surnaturel ou, au contraire, un lieu profané et impropre à accueillir le surnaturel.",
+			"class": "Sangsue"
+		},
+		"(Le) Venomous": {
+			"name": "(S) Venimeux",
+			"description": "Choisissez une drogue ou un poison (que vous portez en bandoulière). Vous êtes immunisé contre cette substance. Vous pouvez vous dépasser pour le sécréter par les pores de votre peau, le concentrer dans votre salive ou l’exhaler sous la forme d’une vapeur.",
+			"class": "Sangsue"
+		},
+		"(Le) Veteran": {
+			"name": "(S) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Sangsue"
+		},
+		"(V) Undead": {
+			"name": "(V) Mort vivant",
+			"description": "Vous êtes un esprit animant un corps mort-vivant. Vos Traumas sont tous cochés. Choisissez quatre séquelles traumatiques qui reflètent votre nature vampirique. Les attaques arcaniques sont puissantes contre vous. Si vous subissez des dégâts mortels ou un trauma, vous ne mourez pas, mais votre esprit mort-vivant est accablé. Vous subissez une blessure de niveau 3: «Invalide», jusqu’à ce que vous vous soyez suffisamment nourri. Si vous subissez des dégâts arcaniques alors que vous êtes dans cet état, alors vous êtes détruit à jamais. Vos jauges d’expérience sont plus longues (vous progressez plus lentement). Vous avez 12 cases de stress au lieu de 9. Quand vous subissez des dégâts «mortels» et êtes invalide, vous pouvez toujours vous dépasser pour agir afin de vous nourrir. Mais si votre stress est également au maximum, alors vous ne pouvez plus agir, et devez vous reposer sur un allié ou un serviteur pour vous sustenter.",
+			"class": "Vampire"
+		},
+		"(V) A Void in the Echo": {
+			"name": "(V) Le silence de l'écho",
+			"description": "Vous êtes invisible pour les esprits et ils ne peuvent pas vous blesser. Vous pouvez subir 2 stress pour forcer les êtres vivants à détourner le regard et ne pas vous percevoir pendant quelques instants.",
+			"class": "Vampire"
+		},
+		"(V) Terrible Power": {
+			"name": "(V) Puissance terrible",
+			"description": "Prenez 1 stress pour effectuer un exploit surhumain de force ou de vitesse (courir plus vite qu’un attelage, fendre la pierre à mains nues, bondir sur le toit d’un immeuble, etc.). Ceci est pris en compte pour votre effet.",
+			"class": "Vampire"
+		},
+		"(V) Dark Talent": {
+			"name": "(V) Sombre Talent",
+			"description": "Choisissez perspicacité, prouesse ou détermination. La valeur maximum pour les actions dépendant de cette caractéristique passe à 5. Vous obtenez également +1 dé aux jets de résistance basés sur cette caractéristique.",
+			"class": "Vampire"
+		},
+		"(V) Sinister Guile": {
+			"name": "(V) Ruse sinistre",
+			"description": "Durant un temps mort, choisissez: vous gagnez soit une activité de temps mort supplémentaire, soit un bonus de +1 dé à tous vos jets d’activité de temps mort.",
+			"class": "Vampire"
+		},
+		"(V) Arcane Sight": {
+			"name": "(V) Vision occulte",
+			"description": "Prenez 1 stress pour que vos sens dépassent les limites humaines pendant plusieurs minutes. Vous pouvez ainsi «écouter» les pensées ou les sentiments véritables de votre cible, voir dans l’obscurité totale, ressentir la présence de l’invisible, deviner l’emplacement d’objets cachés, etc.",
+			"class": "Vampire"
+		},
+		"(V) Veteran": {
+			"name": "(V) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Vampire"
+		}
+	}
+}

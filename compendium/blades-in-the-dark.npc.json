@@ -1,0 +1,197 @@
+{
+  "label": "NPCs",
+  "mapping": {
+    "name": "name",
+    "description": "system.description_short",
+    "long_description": "system.description"
+  },
+  "folders": {},
+  "entries": {
+    "01tuhe2nn2BoeZbV": {
+      "name": "Roslyn Kellis",
+      "tokenName": "Roslyn Kellis",
+      "description": "aristocrate",
+      "long_description": ""
+    },
+    "0c2iOYT6dnwTyWpP": {
+      "name": "Bryl",
+      "tokenName": "Bryl",
+      "description": "trafiquant",
+      "long_description": ""
+    },
+    "0dqDU68OAo3b4kVo": {
+      "name": "Marlo",
+      "tokenName": "Marlo",
+      "description": "chef de gang",
+      "long_description": ""
+    },
+    "0iQxdTXoETXFbJG9": {
+      "name": "Jennah",
+      "tokenName": "Jennah",
+      "description": "chambrière",
+      "long_description": ""
+    },
+    "0zM5aJkLXJIIymsx": {
+      "name": "Setarra",
+      "tokenName": "Setarra",
+      "description": "démon",
+      "long_description": ""
+    },
+    "1gzpJBEG7Wu7PQZK": {
+      "name": "Klyra",
+      "tokenName": "Klyra",
+      "description": "tavernière",
+      "long_description": ""
+    },
+    "1v3mJmkKonLtJFMq": {
+      "name": "Dowler",
+      "tokenName": "Dowler",
+      "description": "explorateur",
+      "long_description": ""
+    },
+    "2VuLIj4Z8elDAXwN": {
+      "name": "Nyryx",
+      "tokenName": "Nyryx",
+      "description": "prostitué(e)",
+      "long_description": ""
+    },
+    "2tLWJkQKO7WUkmsh": {
+      "name": "Grull",
+      "tokenName": "Grull",
+      "description": "bandit intermédiaire",
+      "long_description": "Un bandit intermédiaire aux grandes ambitions."
+    },
+    "3atXPa9OUT9OCcV8": {
+      "name": "Anya",
+      "tokenName": "Anya",
+      "description": "dilettante",
+      "long_description": ""
+    },
+    "4NyIdaeb3WXzzF8Y": {
+      "name": "Lutes",
+      "tokenName": "Lutes",
+      "description": "tavernier",
+      "long_description": ""
+    },
+    "5ShKuFoaI9Bj07u3": {
+      "name": "Walker",
+      "tokenName": "Walker",
+      "description": "chef de quartier",
+      "long_description": ""
+    },
+    "5Zs4L0FD9aDh8Aks": {
+      "name": "Jul",
+      "tokenName": "Jul",
+      "description": "trafiquant de sang",
+      "long_description": ""
+    },
+    "5mS0X3Kn52xhnv8O": {
+      "name": "Elynn",
+      "tokenName": "Elynn",
+      "description": "notaire des quais",
+      "long_description": ""
+    },
+    "618tZppqt7Vti8UG": {
+      "name": "Elstera Avrathi",
+      "tokenName": "Elstera Avrathi",
+      "description": "diplomate",
+      "long_description": "Diplomate résidant à Iruvia."
+    },
+    "6DZugMzukUHAIfHQ": {
+      "name": "Marlane",
+      "tokenName": "Marlane",
+      "description": "pugiliste",
+      "long_description": ""
+    },
+    "6EzDG4jPx6mDWgFL": {
+      "name": "Brynna Skyrkallan",
+      "tokenName": "Brynna Skyrkallan",
+      "description": "diplomate",
+      "long_description": "Diplomate résidant à Skovlan."
+    },
+    "6tcUNrwx5F3L7TYD": {
+      "name": "Keller",
+      "tokenName": "Keller",
+      "description": "forgeron",
+      "long_description": ""
+    },
+    "70n7J94dCEDzteY6": {
+      "name": "Sevoy",
+      "tokenName": "Sevoy",
+      "description": "seigneur marchand",
+      "long_description": ""
+    },
+    "7gADzdqKREm9PeOr": {
+      "name": "Malista",
+      "tokenName": "Malista",
+      "description": "prêtresse",
+      "long_description": ""
+    },
+    "85NbHF5VR9XZUII7": {
+      "name": "Moriya",
+      "tokenName": "Moriya",
+      "description": "trafiquant d'esprits",
+      "long_description": ""
+    },
+    "8DGnUGMorYWXcUVV": {
+      "name": "Denkirk Sol",
+      "tokenName": "Denkirk Sol",
+      "description": "avocat",
+      "long_description": "Avocat aux scrupules surprenants."
+    },
+    "8FjFGa6riyc6J0vm": {
+      "name": "Otto",
+      "tokenName": "Otto",
+      "description": "cocher",
+      "long_description": ""
+    },
+    "CB6nordTDnVkCn3q": {
+      "name": "Mordis",
+      "tokenName": "Mordis",
+      "description": "marchand",
+      "long_description": "Marchand de l'Emporium de la Nuit. Il cache son apparence sous des robes et des capuches."
+    },
+    "CqNC8XaFdloJ5bCm": {
+      "name": "Cinda",
+      "tokenName": "Cinda",
+      "description": "Casaca Bleue",
+      "long_description": "Casaca Bleue de rang subalterne."
+    },
+    "DrRiS7RM4xczvckN": {
+      "name": "Augus",
+      "tokenName": "Augus",
+      "description": "maître architecte",
+      "long_description": ""
+    },
+    "Dv29btX5yhOkX8Pu": {
+      "name": "Chael",
+      "tokenName": "Chael",
+      "description": "bandit cruel",
+      "long_description": ""
+    },
+    "EC8GRUiMI22icqZ7": {
+      "name": "Alon Helker",
+      "tokenName": "Alon Helker",
+      "description": "juge-inspecteur",
+      "long_description": "Juge-inspecteur. Il lutte contre la corruption."
+    },
+    "EPtgobw8OrbmGml4": {
+      "name": "Veldren",
+      "tokenName": "Veldren",
+      "description": "psychonaute",
+      "long_description": ""
+    },
+    "FDVzvTH7KbL0rKHF": {
+      "name": "Jira",
+      "tokenName": "Jira",
+      "description": "contrebandier",
+      "long_description": "Vendeur de l'Emporium de la Nuit. Contrebandier."
+    },
+    "FynAEk2WHTZu3NMe": {
+      "name": "Harker",
+      "tokenName": "Harker",
+      "description": "détenu récidiviste",
+      "long_description": ""
+    }
+  }
+}

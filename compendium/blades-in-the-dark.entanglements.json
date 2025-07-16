@@ -1,0 +1,21 @@
+{
+  "label": "Tables de complications",
+  "mapping": {
+    "description": "system.description",
+    "class": "system.class"
+  },
+  "entries": {
+    "Entanglements - Heat 0-3": {
+      "name": "Complications - Raffut 0-3",
+      "description": "S'il y a deux résultats, le MJ choisit quelle complication se produit."
+    },
+    "Entanglements - Heat 4/5": {
+      "name": "Complications - Raffut 4/5",
+      "description": "S'il y a deux résultats, le MJ choisit quelle complication se produit."
+    },
+    "Entanglements - Heat 6+": {
+      "name": "Complications - Raffut 6+",
+      "description": "S'il y a deux résultats, le MJ choisit quelle complication se produit."
+    }
+  }
+}
