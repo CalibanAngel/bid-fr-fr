@@ -1,0 +1,63 @@
+name: Create Release
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+
+jobs:
+  build:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Bump version
+        id: bump-version
+        run: |
+          # Read current version
+          CURRENT_VERSION=$(jq -r .version module.json)
+          # Split version into parts
+          IFS='.' read -ra VERSION_PARTS <<< "$CURRENT_VERSION"
+          # Increment patch version
+          ((VERSION_PARTS[2]++))
+          # Create new version string
+          NEW_VERSION="${VERSION_PARTS[0]}.${VERSION_PARTS[1]}.${VERSION_PARTS[2]}"
+          # Update module.json with new version
+          jq --arg version "$NEW_VERSION" '.version = $version' module.json > temp.json && mv temp.json module.json
+          # Set output for later steps
+          echo "new_version=${NEW_VERSION}" >> $GITHUB_OUTPUT
+          
+          # Commit and push the version change
+          git add module.json
+          git commit -m "chore: bump version to ${NEW_VERSION}"
+          git push
+
+      - name: Create ZIP file
+        run: |
+          zip -r module.zip . -x ".git/*" ".github/*"
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Release ${{ steps.bump-version.outputs.new_version }}
+          tag_name: v${{ steps.bump-version.outputs.new_version }}
+          files: |
+            module.json
+            module.zip
+          draft: true
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
