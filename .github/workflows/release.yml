@@ -16,26 +16,70 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Setup Git
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
+      - name: Check if module.json exists
+        run: |
+          if [ ! -f "module.json" ]; then
+            echo "Error: module.json not found"
+            exit 1
+          fi
+          echo "Content of module.json:"
+          cat module.json
+
       - name: Bump version
         id: bump-version
         run: |
-          # Read current version
-          CURRENT_VERSION=$(jq -r .version module.json)
+          # Debug: Show current directory contents
+          echo "Current directory contents:"
+          ls -la
+          
+          # Debug: Show module.json content
+          echo "module.json content:"
+          cat module.json
+          
+          # Read current version with error checking
+          if ! CURRENT_VERSION=$(jq -r .version module.json); then
+            echo "Error: Failed to read version from module.json"
+            exit 1
+          fi
+          
+          echo "Current version: $CURRENT_VERSION"
+          
+          # Validate version format
+          if [[ ! $CURRENT_VERSION =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Error: Invalid version format in module.json. Expected format: X.Y.Z"
+            exit 1
+          fi
+          
           # Split version into parts
           IFS='.' read -ra VERSION_PARTS <<< "$CURRENT_VERSION"
+          
+          echo "Version parts: ${VERSION_PARTS[*]}"
+          
           # Increment patch version
           ((VERSION_PARTS[2]++))
+          
           # Create new version string
           NEW_VERSION="${VERSION_PARTS[0]}.${VERSION_PARTS[1]}.${VERSION_PARTS[2]}"
+          echo "New version: $NEW_VERSION"
+          
           # Update module.json with new version
-          jq --arg version "$NEW_VERSION" '.version = $version' module.json > temp.json && mv temp.json module.json
+          if ! jq --arg version "$NEW_VERSION" '.version = $version' module.json > temp.json; then
+            echo "Error: Failed to update version in module.json"
+            exit 1
+          fi
+          mv temp.json module.json
+          
+          # Verify the update
+          echo "Updated module.json content:"
+          cat module.json
+          
           # Set output for later steps
           echo "new_version=${NEW_VERSION}" >> $GITHUB_OUTPUT
           
@@ -43,12 +87,15 @@ jobs:
           git add module.json
           git commit -m "chore: bump version to ${NEW_VERSION}"
           git push
+        shell: bash
 
       - name: Create ZIP file
+        if: success()
         run: |
           zip -r module.zip . -x ".git/*" ".github/*"
 
       - name: Create Release
+        if: success()
         id: create_release
         uses: softprops/action-gh-release@v1
         with:
@@ -57,7 +104,7 @@ jobs:
           files: |
             module.json
             module.zip
-          draft: true
+          draft: false
           prerelease: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
