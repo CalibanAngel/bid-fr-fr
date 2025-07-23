@@ -6,8 +6,8 @@ This French translation was strongly inspired by:
 
 - **bid-pt-br** by Bruno Calado – Brazilian Portuguese module that served as a template  
   <https://github.com/brunocalado/bid-pt-br>
-- **Blades in the Dark Foundry system** by Ethan C. K. – original English strings  
-  <https://github.com/Ethck/blades-in-the-dark>
+- **Blades in the Dark Foundry system** by Dez384. – original English strings  
+  <https://github.com/Dez384/foundryvtt-blades-in-the-dark>
 - **bid-fr** by Cyber Dwarf - already existing french translation
     <https://gitlab.com/Cyberdwarf1664/bid-fr>
 
